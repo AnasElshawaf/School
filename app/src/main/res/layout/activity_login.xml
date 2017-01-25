@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anas.school.Login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_id"
+        android:background="@drawable/layout_border"
+        android:padding="8dp"
+        android:hint="@string/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:padding="8dp"
+        android:id="@+id/password_id"
+        android:hint="@string/password"/>
+
+    <Button
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_login_id"
+        android:layout_gravity="center"
+        android:text="@string/login"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/bt_register_id"
+        android:text="@string/registeruser"
+        />
+
+
+</LinearLayout>
